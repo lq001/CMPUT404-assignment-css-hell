@@ -1,3 +1,27 @@
+#topbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  background-color: #0000CD;
+  padding: 10px;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 12pt;
+  color: #888888;
+  text-align: center;
+}
+#topbar .order {
+    height: 100%;
+    margin: 0 40vh 0 0;
+}
+
+#topbar .box {
+    height: calc(100% - 30px);
+    padding: 10px 10px 0 10px;
+    display: inline-block;
+    background: linear-gradient(0deg, darkorange, yellow);
+}
+
 #rightbar {
   position: fixed;
   top: 20px;
