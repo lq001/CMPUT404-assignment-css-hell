@@ -1,26 +1,20 @@
-.side_bar {
-    position: fixed;
-    top: 40px;
-    left: 8px;
-    padding: 12px;
-    width: 190px;
-    background-color: darkred;
-    border-radius: 0px;
-    color: orange;
-    height: 100%;
+#rightbar {
+  position: fixed;
+  top: 20px;
+  right: 10px;
+  background-color: #FFFF00;
+  padding: 15px;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 26pt;
+  color: #FF0000;
+  text-align: center;
+  height: 100%px;
 }
 
-.side_bar .side_bar_name {
-    font-weight: 800;
-    font-size: 30pt;
-    line-height: 85%;
+#rightbar .title{
+  font-size: 20px;
 }
 
-.right {
-    position: relative;
-    float:right;
-	margin-top:6px;
-	margin-bottom: 1px;
-    width: 78%;
-    height: 47.5px;
+#rightbar .text{
+  font-size: 15px;
 }
