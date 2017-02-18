@@ -1,0 +1,26 @@
+#side-bar {
+    position: fixed;
+    top: 40px;
+    left: 8px;
+    padding: 12px;
+    width: 190px;
+    background-color: darkred;
+    border-radius: 0px;
+    color: orange;
+    height: 100%;
+}
+
+#side-bar .side-bar-name {
+    font-weight: 800;
+    font-size: 30pt;
+    line-height: 85%;
+}
+
+#side-bar .side-bar-pt {
+    padding-top: 10px;
+    font-size: 24pt;
+}
+
+#side-bar .side-bar-pt .text {
+    padding-left: 8px;
+}
