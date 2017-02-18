@@ -1,4 +1,4 @@
-#side-bar {
+.side_bar {
     position: fixed;
     top: 40px;
     left: 8px;
@@ -10,17 +10,17 @@
     height: 100%;
 }
 
-#side-bar .side-bar-name {
+.side_bar .side_bar_name {
     font-weight: 800;
     font-size: 30pt;
     line-height: 85%;
 }
 
-#side-bar .side-bar-pt {
-    padding-top: 10px;
-    font-size: 24pt;
-}
-
-#side-bar .side-bar-pt .text {
-    padding-left: 8px;
+.right {
+    position: relative;
+    float:right;
+	margin-top:6px;
+	margin-bottom: 1px;
+    width: 78%;
+    height: 47.5px;
 }
